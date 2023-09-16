@@ -10,10 +10,10 @@ class Api {
                 'Content-Type' : 'application/json',
                 'User-Agent' : 'PostmanRuntime/7.32.3'
             },
-            auth : {
-                username : process.env.USERNAME,
-                password : process.env.PERSONAL_ACCESS_TOKEN
-            },
+           auth : {
+            username : process.env.USERNAME,
+            password : process.env.PERSONAL_ACCESS_TOKEN
+           },
             json : true,
         });
 
